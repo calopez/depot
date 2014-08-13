@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mo",
+				"mod	module .. end"
+			],
+			[
+				"retracted",
+				"retracted_title"
+			],
+			[
+				"chat",
+				"chatSlider"
+			],
+			[
+				"exten",
+				"extended_height"
+			],
+			[
+				"retrac",
+				"retracted_height"
+			],
+			[
+				"init",
+				"initModule"
+			],
+			[
+				"b-ra",
+				"border-radius"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"ba-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"new fi",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/calopez/Rails/depot/test/controllers/products_controller_test.rb",
+		"/Users/calopez/Rails/depot/test/models/product_test.rb",
+		"/Users/calopez/Rails/depot/test/test_helper.rb",
+		"/Users/calopez/Rails/depot/config/environments/test.rb",
+		"/Users/calopez/Rails/depot/log/test.log",
+		"/Users/calopez/Rails/depot/db/test.sqlite3",
+		"/Users/calopez/Rails/depot/config/application.rb",
+		"/Users/calopez/Rails/depot/app/views/store/index.html.erb",
+		"/Users/calopez/Rails/depot/app/models/product.rb",
+		"/Users/calopez/Rails/depot/config/environments/development.rb",
+		"/Users/calopez/Rails/depot/config/routes.rb",
+		"/Users/calopez/Rails/depot/config/environment.rb",
+		"/Users/calopez/Rails/depot/config/database.yml",
+		"/Users/calopez/Rails/depot/config/boot.rb",
+		"/Users/calopez/Rails/depot/config.ru",
+		"/Users/calopez/Rails/depot/app/assets/javascripts/application.js",
+		"/Users/calopez/Rails/depot/app/controllers/application_controller.rb",
+		"/Users/calopez/Rails/depot/app/helpers/application_helper.rb",
+		"/Users/calopez/Rails/depot/app/assets/stylesheets/application.css.scss",
+		"/Users/calopez/Rails/depot/app/views/products/show.html.erb",
+		"/Users/calopez/Rails/depot/tmp/cache/7DA/AA1/views%2Fstore%2Fproducts%2F3-20140811034015623174000%2F5d6a341a412c1c22a715dc86b6ddf643",
+		"/Users/calopez/Rails/depot/config/initializers/wrap_parameters.rb",
+		"/Users/calopez/Rails/depot/app/views/products/new.html.erb",
+		"/Users/calopez/Rails/depot/app/models/.keep",
+		"/Users/calopez/Rails/depot/config/initializers/mime_types.rb",
+		"/Users/calopez/Rails/depot/app/views/layouts/application.html.erb",
+		"/Users/calopez/Rails/depot/app/assets/stylesheets/store.css.scss",
+		"/Users/calopez/Rails/depot/app/helpers/products_helper.rb",
+		"/Users/calopez/Rails/depot/test/controllers/store_controller_test.rb",
+		"/Users/calopez/Rails/depot/test/fixtures/products.yml",
+		"/Users/calopez/Rails/depot/test/fixtures/.keep",
+		"/Users/calopez/Rails/depot/config/initializers/filter_parameter_logging.rb",
+		"/Users/calopez/Rails/depot/tmp/cache/assets/development/sass/d9e954c801c4ee8caeae14eea97c0e22f033e2bd/line_items.css.scssc",
+		"/Users/calopez/Rails/depot/app/views/products/index.html.erb",
+		"/Users/calopez/Rails/depot/app/views/products/edit.html.erb",
+		"/Users/calopez/Rails/depot/app/helpers/store_helper.rb",
+		"/Users/calopez/Rails/depot/test/helpers/.keep",
+		"/Users/calopez/Rails/depot/Rakefile",
+		"/Users/calopez/Rails/depot/app/assets/javascripts/store.js.coffee",
+		"/Users/calopez/Rails/depot/app/controllers/store_controller.rb",
+		"/Users/calopez/Rails/depot/config/initializers/secret_token.rb",
+		"/Users/calopez/Rails/depot/db/schema.rb",
+		"/Users/calopez/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/calopez/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/calopez/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/calopez/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/calopez/Rails/rails4/config/initializers/inflections.rb",
+		"/Users/calopez/Bootstrap-Training/bootstrap/js/bootstrap.js",
+		"/Users/calopez/Bootstrap-Training/index.html",
+		"/Users/calopez/Bootstrap-Training/includes/css/styles.css",
+		"/Users/calopez/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/calopez/Rails/depot/config/initializers/inflections.rb",
+		"/Users/calopez/Rails/depot/app/controllers/products_controller.rb",
+		"/Users/calopez/Rails/depot/app/controllers/carts_controller.rb",
+		"/Users/calopez/Rails/depot/app/controllers/line_items_controller.rb",
+		"/Users/calopez/Rails/depot/db/migrate/20121130000001_create_products.rb",
+		"/Users/calopez/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cache",
+			"open",
+			"proje",
+			"http",
+			"inner",
+			"clas"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "depot.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"test",
+				"test/controllers/store_controller_test.rb"
+			],
+			[
+				"config",
+				"config/environments/development.rb"
+			],
+			[
+				"applic",
+				"config/application.rb"
+			],
+			[
+				"avsi",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"m/pro",
+				"app/models/product.rb"
+			],
+			[
+				"environ",
+				"config/environments/development.rb"
+			],
+			[
+				"fixt",
+				"test/fixtures/products.yml"
+			],
+			[
+				"store_contro",
+				"test/controllers/store_controller_test.rb"
+			],
+			[
+				"helper/",
+				"app/helpers/products_helper.rb"
+			],
+			[
+				"store.html",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"store/in",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"store.css",
+				"app/assets/stylesheets/store.css.scss"
+			],
+			[
+				"index",
+				"app/views/test/index.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Js/js-spa.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 269.0,
+		"selected_items":
+		[
+			[
+				"updat",
+				"update"
+			],
+			[
+				"create",
+				"CreateProducts"
+			]
+		],
+		"width": 378.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
