@@ -6,6 +6,8 @@
 
 # Ignore bundler config.
 /.bundle
+# sublime workspace
+*.sublime-workspace
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -17,6 +19,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+
 
 # Icon must end with two \r
 Icon
