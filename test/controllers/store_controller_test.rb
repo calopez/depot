@@ -1,9 +1,9 @@
 #---
 # Excerpted from "Agile Web Development with Rails",
 # published by The Pragmatic Bookshelf.
-# Copyrights apply to this code. It may not be used to create training material, 
+# Copyrights apply to this code. It may not be used to create training material,
 # courses, books, articles, and the like. Contact us if you are in doubt.
-# We make no guarantees that this code is fit for any purpose. 
+# We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 require 'test_helper'
@@ -16,6 +16,16 @@ class StoreControllerTest < ActionController::TestCase
     assert_select '#main .entry', 3
     assert_select 'h3', 'Programming Ruby 1.9'
     assert_select '.price', /\$[,\d]+\.\d\d/
+  end
+
+# While testing code that actually executes in the browser is outside the scope of
+# this book, we should test that the markup this script depends on is in place.
+# And it is certainly easy enough:
+
+  test "markup needed for store.js.coffee is in place" do
+    get :index
+    assert_select '.store .entry > img', 3
+    assert_select '.entry input[type=submmit]', 3
   end
 
 end
