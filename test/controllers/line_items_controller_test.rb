@@ -21,7 +21,7 @@ class LineItemsControllerTest < ActionController::TestCase
       post :create, product_id: products(:ruby).id
     end
 
-    assert_redirected_to stor_path
+    assert_redirected_to store_path
   end
 
     test "should create line_item via ajax" do

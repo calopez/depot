@@ -7,6 +7,7 @@ class Order < ActiveRecord::Base
   def add_line_items_from_cart(cart)
     cart.line_items.each do |item|
       item.cart_id = nil # prevemt the item from going poof when we destroy the cart
+      item.order_id = id
       line_items << item
     end
   end
