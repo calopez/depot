@@ -8,6 +8,11 @@
 #---
 class Product < ActiveRecord::Base
   has_many :line_items
+  # Products have many line_items, and line_items belongs to an order. We could
+  # iterate and traverse, but by simply declaring that there is a relationship
+  # between products and orders through the line_items relationship,
+  # we can simplify our code:
+  has_many :orders, through: :line_items
 
   before_destroy :ensure_not_referenced_by_any_line_item
 
