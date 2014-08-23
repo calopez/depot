@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: Dave Thomas
+  name: Carlos Lopez
   address: MyText
   email: karloslopez@me.com
   pay_type: Check
